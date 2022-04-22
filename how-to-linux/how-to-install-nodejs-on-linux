@@ -1,0 +1,30 @@
+installing node js on linux
+nodejs is already preinstalled on every machine.
+but it is not the latest version
+install nvm node version manage.
+
+follow these steps:
+
+create these files 
+
+touch ~/.bash_profile
+touch ~/.bashrc
+touch ~/.zshrc
+touch ~/.profile
+
+after these files are created in your home directory, then you're ready to download nvm.
+
+go to the nvm repository on github
+https://github.com/nvm-sh/nvm#installing-and-updating
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+how to upgrade nodejs to latest version
+
+use this comand to see all the node versions up to the current version.
+including the latest version
+
+next install
+nodejs using nvm
+ nvm install <the version you want>
+
